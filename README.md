@@ -2,6 +2,8 @@
 
 This  is a guide on how to sync your Nolus Testnet (nolus-rila) node using snapshot. Provided by medium#7343.
 
+Snapshots are taken automatically every 24 hours.
+
 1. Stop your Nolus service, then make a backup of ``priv_validator_state`` file.
 ```
 sudo systemctl stop nolusd
